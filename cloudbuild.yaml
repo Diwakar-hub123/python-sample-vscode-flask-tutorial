@@ -25,4 +25,6 @@ steps:
     entrypoint: 'bash'
     args:
       - '-c'
-      - 'python startup.py sdist'
+      - |
+         set -ex
+        'python startup.py sdist'
