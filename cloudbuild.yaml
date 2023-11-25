@@ -20,7 +20,7 @@ steps:
       - 'requirements.txt'  # Adjust the path to your requirements file
 
   # Step 3: Build the Python application
-  - name: 'gcr.io/cloud-builders/docker'
+  - name: 'python:3.8'
     id: 'Build Python application'
     entrypoint: 'bash'
     args:
