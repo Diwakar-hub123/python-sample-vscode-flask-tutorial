@@ -26,5 +26,5 @@ steps:
     args:
       - '-c'
       - |
-         set -ex
-        'python startup.py sdist'
+        set -ex
+        python startup.py sdist
