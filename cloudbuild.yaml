@@ -26,5 +26,6 @@ steps:
     args:
       - '-c'
       - |
-        set -ex
-        python startup.py sdist
+        cd hello_app
+        FLASK_APP=webapp
+        flask run
