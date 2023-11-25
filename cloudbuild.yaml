@@ -11,7 +11,7 @@ steps:
         pip3 install --upgrade pip
 
   # Step 2: Install dependencies
-  - name: 'gcr.io/cloud-builders/docker'
+  - name: 'python:3.8'
     id: 'Install dependencies'
     entrypoint: 'pip'
     args:
