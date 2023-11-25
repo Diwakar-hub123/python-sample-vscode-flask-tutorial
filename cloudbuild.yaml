@@ -27,5 +27,5 @@ steps:
       - '-c'
       - |
         cd hello_app
-        FLASK_APP=webapp
+        export FLASK_APP=webapp
         flask run
